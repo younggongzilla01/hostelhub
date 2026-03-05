@@ -93,11 +93,11 @@ export default function LoginPage() {
                 className="flex-1 py-4 text-sm font-medium tracking-widest uppercase transition-all"
                 style={{
                   color: tab === t ? '#e8c97a' : 'rgba(245,240,232,0.35)',
-                  borderBottom: tab === t ? '2px solid #c9a84c' : '2px solid transparent',
+                  borderBottom: tab === t ? `2px solid gold` : 'none',olid #c9a84c' : '2px solid transparent',
                   marginBottom: '-1px',
                   background: 'none',
                   border: 'none',
-                  borderBottom: tab === t ? '2px solid #c9a84c' : '2px solid transparent',
+                  
                   cursor: 'pointer',
                   letterSpacing: '0.15em',
                 }}>
